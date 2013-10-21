@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5904202817E3587E00EB8AD1 /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5904202717E3587E00EB8AD1 /* ReceiptViewController.m */; };
+		5918FACA178B464200FC39B3 /* defaultProduct.png in Resources */ = {isa = PBXBuildFile; fileRef = 5918FAC9178B464200FC39B3 /* defaultProduct.png */; };
+		5918FACD178B473D00FC39B3 /* _Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5918FACC178B473D00FC39B3 /* _Product.m */; };
+		5918FAD0178B477700FC39B3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5918FACF178B477700FC39B3 /* Product.m */; };
+		5918FAD3178B51E600FC39B3 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5918FAD2178B51E600FC39B3 /* ProductCell.m */; };
+		594567D317E3C49700DC86DD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594567D217E3C49700DC86DD /* MessageUI.framework */; };
+		59E57E50178C9F11002B93BF /* CatalogEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57E4F178C9F11002B93BF /* CatalogEditorViewController.m */; };
+		59E57E53178CBDEF002B93BF /* CartRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57E52178CBDEF002B93BF /* CartRowCell.m */; };
+		59E57E5C178DB6E0002B93BF /* _CartLineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57E5B178DB6E0002B93BF /* _CartLineItem.m */; };
+		59E57E5F178DB6E0002B93BF /* _Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57E5E178DB6E0002B93BF /* _Order.m */; };
+		59E57E62178DB736002B93BF /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57E61178DB736002B93BF /* Order.m */; };
+		59E57E65178DB74C002B93BF /* CartLineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57E64178DB74B002B93BF /* CartLineItem.m */; };
+		59E57F0F178EF330002B93BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E57F0E178EF330002B93BF /* QuartzCore.framework */; };
+		59E57F1217948D51002B93BF /* StripeAPIEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57F1117948D50002B93BF /* StripeAPIEditorViewController.m */; };
+		59E57F1817949DA9002B93BF /* _Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57F1717949DA8002B93BF /* _Store.m */; };
+		59E57F211795D157002B93BF /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57F201795D156002B93BF /* Store.m */; };
+		59E57F251795DA23002B93BF /* StripeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E57F241795DA23002B93BF /* StripeExtensions.m */; };
+		59ED115D1787338B00897A35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59ED115C1787338B00897A35 /* UIKit.framework */; };
+		59ED115F1787338B00897A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59ED115E1787338B00897A35 /* Foundation.framework */; };
+		59ED11611787338B00897A35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59ED11601787338B00897A35 /* CoreGraphics.framework */; };
+		59ED11631787338B00897A35 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59ED11621787338B00897A35 /* CoreData.framework */; };
+		59ED11691787338B00897A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59ED11671787338B00897A35 /* InfoPlist.strings */; };
+		59ED116B1787338B00897A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED116A1787338B00897A35 /* main.m */; };
+		59ED116F1787338B00897A35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED116E1787338B00897A35 /* AppDelegate.m */; };
+		59ED11711787338B00897A35 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 59ED11701787338B00897A35 /* Default.png */; };
+		59ED11731787338B00897A35 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59ED11721787338B00897A35 /* Default@2x.png */; };
+		59ED11751787338B00897A35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59ED11741787338B00897A35 /* Default-568h@2x.png */; };
+		59ED11781787338B00897A35 /* StripeStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59ED11761787338B00897A35 /* StripeStore.xcdatamodeld */; };
+		59ED117F178733B100897A35 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59ED117E178733B100897A35 /* MainStoryboard.storyboard */; };
+		59ED1185178B0F7D00897A35 /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED1184178B0F7D00897A35 /* StoreViewController.m */; };
+		59ED1188178B102A00897A35 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED1187178B102A00897A35 /* CatalogViewController.m */; };
+		59ED118B178B109200897A35 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED118A178B109200897A35 /* CartViewController.m */; };
+		59ED118E178B41B000897A35 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED118D178B41B000897A35 /* ProductDetailViewController.m */; };
+		59ED1191178B41F100897A35 /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ED1190178B41F100897A35 /* CheckoutViewController.m */; };
+		B5E1C03FFBAF4923919963E5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C98B51DE23407BAC3FB316 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5904202617E3587D00EB8AD1 /* ReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptViewController.h; sourceTree = "<group>"; };
+		5904202717E3587E00EB8AD1 /* ReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptViewController.m; sourceTree = "<group>"; };
+		5918FAC9178B464200FC39B3 /* defaultProduct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultProduct.png; sourceTree = "<group>"; };
+		5918FACB178B473D00FC39B3 /* _Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Product.h; sourceTree = "<group>"; };
+		5918FACC178B473D00FC39B3 /* _Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Product.m; sourceTree = "<group>"; };
+		5918FACE178B477700FC39B3 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		5918FACF178B477700FC39B3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		5918FAD1178B51E600FC39B3 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		5918FAD2178B51E600FC39B3 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		594567D217E3C49700DC86DD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		59E57E4E178C9F11002B93BF /* CatalogEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogEditorViewController.h; sourceTree = "<group>"; };
+		59E57E4F178C9F11002B93BF /* CatalogEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogEditorViewController.m; sourceTree = "<group>"; };
+		59E57E51178CBDEF002B93BF /* CartRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartRowCell.h; sourceTree = "<group>"; };
+		59E57E52178CBDEF002B93BF /* CartRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartRowCell.m; sourceTree = "<group>"; };
+		59E57E5A178DB6DF002B93BF /* _CartLineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CartLineItem.h; sourceTree = "<group>"; };
+		59E57E5B178DB6E0002B93BF /* _CartLineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CartLineItem.m; sourceTree = "<group>"; };
+		59E57E5D178DB6E0002B93BF /* _Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Order.h; sourceTree = "<group>"; };
+		59E57E5E178DB6E0002B93BF /* _Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Order.m; sourceTree = "<group>"; };
+		59E57E60178DB736002B93BF /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		59E57E61178DB736002B93BF /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		59E57E63178DB74B002B93BF /* CartLineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartLineItem.h; sourceTree = "<group>"; };
+		59E57E64178DB74B002B93BF /* CartLineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartLineItem.m; sourceTree = "<group>"; };
+		59E57F0E178EF330002B93BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		59E57F1017948D4F002B93BF /* StripeAPIEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripeAPIEditorViewController.h; sourceTree = "<group>"; };
+		59E57F1117948D50002B93BF /* StripeAPIEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripeAPIEditorViewController.m; sourceTree = "<group>"; };
+		59E57F1617949DA8002B93BF /* _Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Store.h; sourceTree = "<group>"; };
+		59E57F1717949DA8002B93BF /* _Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Store.m; sourceTree = "<group>"; };
+		59E57F1F1795D155002B93BF /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		59E57F201795D156002B93BF /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		59E57F231795DA23002B93BF /* StripeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripeExtensions.h; sourceTree = "<group>"; };
+		59E57F241795DA23002B93BF /* StripeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripeExtensions.m; sourceTree = "<group>"; };
+		59ED11591787338B00897A35 /* StripeStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59ED115C1787338B00897A35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59ED115E1787338B00897A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59ED11601787338B00897A35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59ED11621787338B00897A35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		59ED11661787338B00897A35 /* StripeStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StripeStore-Info.plist"; sourceTree = "<group>"; };
+		59ED11681787338B00897A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59ED116A1787338B00897A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59ED116C1787338B00897A35 /* StripeStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StripeStore-Prefix.pch"; sourceTree = "<group>"; };
+		59ED116D1787338B00897A35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59ED116E1787338B00897A35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59ED11701787338B00897A35 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		59ED11721787338B00897A35 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		59ED11741787338B00897A35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		59ED11771787338B00897A35 /* StripeStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StripeStore.xcdatamodel; sourceTree = "<group>"; };
+		59ED117E178733B100897A35 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		59ED1183178B0F7D00897A35 /* StoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
+		59ED1184178B0F7D00897A35 /* StoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
+		59ED1186178B102A00897A35 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
+		59ED1187178B102A00897A35 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
+		59ED1189178B109200897A35 /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		59ED118A178B109200897A35 /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		59ED118C178B41B000897A35 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		59ED118D178B41B000897A35 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		59ED118F178B41F100897A35 /* CheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutViewController.h; sourceTree = "<group>"; };
+		59ED1190178B41F100897A35 /* CheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutViewController.m; sourceTree = "<group>"; };
+		61C98B51DE23407BAC3FB316 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E883774F6C45C1B4CC7AE0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59ED11561787338B00897A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594567D317E3C49700DC86DD /* MessageUI.framework in Frameworks */,
+				59E57F0F178EF330002B93BF /* QuartzCore.framework in Frameworks */,
+				59ED115D1787338B00897A35 /* UIKit.framework in Frameworks */,
+				59ED115F1787338B00897A35 /* Foundation.framework in Frameworks */,
+				59ED11611787338B00897A35 /* CoreGraphics.framework in Frameworks */,
+				59ED11631787338B00897A35 /* CoreData.framework in Frameworks */,
+				B5E1C03FFBAF4923919963E5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5918FAC8178B462800FC39B3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5918FAC9178B464200FC39B3 /* defaultProduct.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		59E57E66178DB755002B93BF /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				59E57F1F1795D155002B93BF /* Store.h */,
+				59E57F201795D156002B93BF /* Store.m */,
+				59E57F1617949DA8002B93BF /* _Store.h */,
+				59E57F1717949DA8002B93BF /* _Store.m */,
+				5918FACE178B477700FC39B3 /* Product.h */,
+				5918FACF178B477700FC39B3 /* Product.m */,
+				5918FACB178B473D00FC39B3 /* _Product.h */,
+				5918FACC178B473D00FC39B3 /* _Product.m */,
+				59E57E60178DB736002B93BF /* Order.h */,
+				59E57E61178DB736002B93BF /* Order.m */,
+				59E57E5D178DB6E0002B93BF /* _Order.h */,
+				59E57E5E178DB6E0002B93BF /* _Order.m */,
+				59E57E63178DB74B002B93BF /* CartLineItem.h */,
+				59E57E64178DB74B002B93BF /* CartLineItem.m */,
+				59E57E5A178DB6DF002B93BF /* _CartLineItem.h */,
+				59E57E5B178DB6E0002B93BF /* _CartLineItem.m */,
+			);
+			name = DataObjects;
+			sourceTree = "<group>";
+		};
+		59E57F221795D9FA002B93BF /* StripeExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				59E57F231795DA23002B93BF /* StripeExtensions.h */,
+				59E57F241795DA23002B93BF /* StripeExtensions.m */,
+			);
+			name = StripeExtensions;
+			sourceTree = "<group>";
+		};
+		59ED11501787338B00897A35 = {
+			isa = PBXGroup;
+			children = (
+				59ED11641787338B00897A35 /* StripeStore */,
+				59ED115B1787338B00897A35 /* Frameworks */,
+				59ED115A1787338B00897A35 /* Products */,
+				D3E883774F6C45C1B4CC7AE0 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		59ED115A1787338B00897A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59ED11591787338B00897A35 /* StripeStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59ED115B1787338B00897A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594567D217E3C49700DC86DD /* MessageUI.framework */,
+				59E57F0E178EF330002B93BF /* QuartzCore.framework */,
+				59ED115C1787338B00897A35 /* UIKit.framework */,
+				59ED115E1787338B00897A35 /* Foundation.framework */,
+				59ED11601787338B00897A35 /* CoreGraphics.framework */,
+				59ED11621787338B00897A35 /* CoreData.framework */,
+				61C98B51DE23407BAC3FB316 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59ED11641787338B00897A35 /* StripeStore */ = {
+			isa = PBXGroup;
+			children = (
+				59E57F221795D9FA002B93BF /* StripeExtensions */,
+				59E57E66178DB755002B93BF /* DataObjects */,
+				59ED116D1787338B00897A35 /* AppDelegate.h */,
+				59ED116E1787338B00897A35 /* AppDelegate.m */,
+				59ED11761787338B00897A35 /* StripeStore.xcdatamodeld */,
+				59ED117E178733B100897A35 /* MainStoryboard.storyboard */,
+				59ED1183178B0F7D00897A35 /* StoreViewController.h */,
+				59ED1184178B0F7D00897A35 /* StoreViewController.m */,
+				59ED1186178B102A00897A35 /* CatalogViewController.h */,
+				59ED1187178B102A00897A35 /* CatalogViewController.m */,
+				59ED1189178B109200897A35 /* CartViewController.h */,
+				59ED118A178B109200897A35 /* CartViewController.m */,
+				59E57E51178CBDEF002B93BF /* CartRowCell.h */,
+				59E57E52178CBDEF002B93BF /* CartRowCell.m */,
+				59ED118C178B41B000897A35 /* ProductDetailViewController.h */,
+				59ED118D178B41B000897A35 /* ProductDetailViewController.m */,
+				59ED118F178B41F100897A35 /* CheckoutViewController.h */,
+				59ED1190178B41F100897A35 /* CheckoutViewController.m */,
+				5904202617E3587D00EB8AD1 /* ReceiptViewController.h */,
+				5904202717E3587E00EB8AD1 /* ReceiptViewController.m */,
+				5918FAD1178B51E600FC39B3 /* ProductCell.h */,
+				5918FAD2178B51E600FC39B3 /* ProductCell.m */,
+				59E57E4E178C9F11002B93BF /* CatalogEditorViewController.h */,
+				59E57E4F178C9F11002B93BF /* CatalogEditorViewController.m */,
+				59E57F1017948D4F002B93BF /* StripeAPIEditorViewController.h */,
+				59E57F1117948D50002B93BF /* StripeAPIEditorViewController.m */,
+				5918FAC8178B462800FC39B3 /* images */,
+				59ED11651787338B00897A35 /* Supporting Files */,
+			);
+			path = StripeStore;
+			sourceTree = "<group>";
+		};
+		59ED11651787338B00897A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59ED11661787338B00897A35 /* StripeStore-Info.plist */,
+				59ED11671787338B00897A35 /* InfoPlist.strings */,
+				59ED116A1787338B00897A35 /* main.m */,
+				59ED116C1787338B00897A35 /* StripeStore-Prefix.pch */,
+				59ED11701787338B00897A35 /* Default.png */,
+				59ED11721787338B00897A35 /* Default@2x.png */,
+				59ED11741787338B00897A35 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59ED11581787338B00897A35 /* StripeStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59ED117B1787338B00897A35 /* Build configuration list for PBXNativeTarget "StripeStore" */;
+			buildPhases = (
+				7CB08276B1574E3D8772D533 /* Check Pods Manifest.lock */,
+				59ED11551787338B00897A35 /* Sources */,
+				59ED11561787338B00897A35 /* Frameworks */,
+				59ED11571787338B00897A35 /* Resources */,
+				8CD8E5BDFE5C44E9B42DE00B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StripeStore;
+			productName = StripeStore;
+			productReference = 59ED11591787338B00897A35 /* StripeStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59ED11511787338B00897A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Centre for International Governance Innovation";
+				TargetAttributes = {
+					59ED11581787338B00897A35 = {
+						DevelopmentTeam = 9EE3XJFSSK;
+					};
+				};
+			};
+			buildConfigurationList = 59ED11541787338B00897A35 /* Build configuration list for PBXProject "StripeStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59ED11501787338B00897A35;
+			productRefGroup = 59ED115A1787338B00897A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59ED11581787338B00897A35 /* StripeStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59ED11571787338B00897A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59ED11691787338B00897A35 /* InfoPlist.strings in Resources */,
+				59ED11711787338B00897A35 /* Default.png in Resources */,
+				59ED11731787338B00897A35 /* Default@2x.png in Resources */,
+				59ED11751787338B00897A35 /* Default-568h@2x.png in Resources */,
+				59ED117F178733B100897A35 /* MainStoryboard.storyboard in Resources */,
+				5918FACA178B464200FC39B3 /* defaultProduct.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CB08276B1574E3D8772D533 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CD8E5BDFE5C44E9B42DE00B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59ED11551787338B00897A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59ED116B1787338B00897A35 /* main.m in Sources */,
+				59ED116F1787338B00897A35 /* AppDelegate.m in Sources */,
+				59ED11781787338B00897A35 /* StripeStore.xcdatamodeld in Sources */,
+				59ED1185178B0F7D00897A35 /* StoreViewController.m in Sources */,
+				59ED1188178B102A00897A35 /* CatalogViewController.m in Sources */,
+				59ED118B178B109200897A35 /* CartViewController.m in Sources */,
+				59ED118E178B41B000897A35 /* ProductDetailViewController.m in Sources */,
+				59ED1191178B41F100897A35 /* CheckoutViewController.m in Sources */,
+				5918FACD178B473D00FC39B3 /* _Product.m in Sources */,
+				5918FAD0178B477700FC39B3 /* Product.m in Sources */,
+				5918FAD3178B51E600FC39B3 /* ProductCell.m in Sources */,
+				59E57E50178C9F11002B93BF /* CatalogEditorViewController.m in Sources */,
+				59E57E53178CBDEF002B93BF /* CartRowCell.m in Sources */,
+				59E57E5C178DB6E0002B93BF /* _CartLineItem.m in Sources */,
+				59E57E5F178DB6E0002B93BF /* _Order.m in Sources */,
+				59E57E62178DB736002B93BF /* Order.m in Sources */,
+				59E57E65178DB74C002B93BF /* CartLineItem.m in Sources */,
+				59E57F1217948D51002B93BF /* StripeAPIEditorViewController.m in Sources */,
+				59E57F1817949DA9002B93BF /* _Store.m in Sources */,
+				59E57F211795D157002B93BF /* Store.m in Sources */,
+				59E57F251795DA23002B93BF /* StripeExtensions.m in Sources */,
+				5904202817E3587E00EB8AD1 /* ReceiptViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59ED11671787338B00897A35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59ED11681787338B00897A35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59ED11791787338B00897A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		59ED117A1787338B00897A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59ED117C1787338B00897A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E883774F6C45C1B4CC7AE0 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StripeStore/StripeStore-Prefix.pch";
+				INFOPLIST_FILE = "StripeStore/StripeStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59ED117D1787338B00897A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E883774F6C45C1B4CC7AE0 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StripeStore/StripeStore-Prefix.pch";
+				INFOPLIST_FILE = "StripeStore/StripeStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59ED11541787338B00897A35 /* Build configuration list for PBXProject "StripeStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59ED11791787338B00897A35 /* Debug */,
+				59ED117A1787338B00897A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59ED117B1787338B00897A35 /* Build configuration list for PBXNativeTarget "StripeStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59ED117C1787338B00897A35 /* Debug */,
+				59ED117D1787338B00897A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59ED11761787338B00897A35 /* StripeStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59ED11771787338B00897A35 /* StripeStore.xcdatamodel */,
+			);
+			currentVersion = 59ED11771787338B00897A35 /* StripeStore.xcdatamodel */;
+			path = StripeStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59ED11511787338B00897A35 /* Project object */;
+}

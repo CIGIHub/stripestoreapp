@@ -1,0 +1,17 @@
+PODS:
+  - PaymentKit (1.0.2)
+  - Stripe (1.0.2):
+    - PaymentKit
+
+DEPENDENCIES:
+  - Stripe (from `https://github.com/stripe/stripe-ios.git`)
+
+EXTERNAL SOURCES:
+  Stripe:
+    :git: https://github.com/stripe/stripe-ios.git
+
+SPEC CHECKSUMS:
+  PaymentKit: be75a5398a9465edd84f7249a9e57d707da025fb
+  Stripe: d939af1f258e8b69482205eafa44e0f27f3e74d6
+
+COCOAPODS: 0.26.2

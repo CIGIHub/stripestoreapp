@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'StripeStore' target in the 'StripeStore' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#define kCatalogDidSelectProduct @"didSelectProduct"
+#define kDidSetCurrentOrder @"didSetCurrentOrder"
+#define kResetCurrentOrder @"resetCurrentOrder"
+#define kCartDidZeroProduct @"didZeroProduct"
+#define kCartDidStateChange @"didCartStateChange"
+#define kReceiptComplete @"didSendReceipt"
